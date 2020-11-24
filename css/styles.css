@@ -9,6 +9,9 @@ body {
     background: #1e2d3b;
     color: whitesmoke;
 }
+img {
+    max-width: 100%;
+}
 /* header */
 .topheader {
     background-color: #2e3a46;
@@ -18,4 +21,36 @@ body {
 }
 .topheader img {
     max-width: 50px;
+}
+/* cdlist */
+.filter {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.albumlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 10px;
+    list-style: none;
+}
+.album {
+    flex-basis: 200px;
+    padding: 20px;
+    margin: 10px 20px ;
+    text-align: center;
+    background-color: #2e3a46 ;
+}
+.immagine {
+    min-height: 170px;
+}
+.author, .year {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #717375;
+}
+.title {
+    padding-bottom: 15px;
+    text-transform: uppercase;
 }
