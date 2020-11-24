@@ -1,0 +1,21 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    background: #1e2d3b;
+    color: whitesmoke;
+}
+/* header */
+.topheader {
+    background-color: #2e3a46;
+    padding: 5px;
+    padding-bottom: 0px;
+     
+}
+.topheader img {
+    max-width: 50px;
+}
